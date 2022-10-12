@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Janus Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen"><div class="current">0</div></div>
+      <div class="panel-big">
+        <button class="btn-big btn-clear" onclick="resetDisplay()">
+          Clear
+        </button>
+        <button class="btn-big btn-delete" onclick="deleteDisplay()">
+          Delete
+        </button>
+      </div>
+      <div class="panel-small">
+        <button class="btn-small number" value="1">1</button>
+        <button class="btn-small number" value="2">2</button>
+        <button class="btn-small number" value="3">3</button>
+        <button class="btn-small operator">+</button>
+        <button class="btn-small number" value="4">4</button>
+        <button class="btn-small number" value="5">5</button>
+        <button class="btn-small number" value="6">6</button>
+        <button class="btn-small operator">-</button>
+        <button class="btn-small number" value="7">7</button>
+        <button class="btn-small number" value="8">8</button>
+        <button class="btn-small number" value="9">9</button>
+        <button class="btn-small operator">x</button>
+        <button class="btn-small">.</button>
+        <button class="btn-small number" value="0">0</button>
+        <button class="btn-small operator">=</button>
+        <button class="btn-small operator">÷</button>
+      </div>
+    </div>
+
+    <div class="footer">Copyrights© JanusZhu | <a>Source Code</a></div>
+    <script src="script.js"></script>
+  </body>
+</html>
