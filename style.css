@@ -29,6 +29,7 @@ body {
   height: 80px;
   margin: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
 }
@@ -44,7 +45,12 @@ body {
   height: 50px;
 }
 
-.current {
+.pre {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.cur {
   font-size: 30px;
   margin: 10px;
 }
