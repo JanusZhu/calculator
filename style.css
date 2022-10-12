@@ -11,7 +11,7 @@ body {
   align-items: center;
   width: 310px;
   height: 500px;
-  background-color: beige;
+  background-color: rgba(221, 221, 208, 0.76);
   margin-top: 100px;
   border: solid 2px black;
   border-radius: 5px;
@@ -22,7 +22,7 @@ body {
 }
 
 .screen {
-  background-color: azure;
+  background-color: rgb(205, 232, 232);
   border: solid 2px black;
   border-radius: 5px;
   width: 260px;
@@ -43,6 +43,7 @@ body {
 .btn-big {
   width: 120px;
   height: 50px;
+  border-radius: 30px;
 }
 
 .pre {
@@ -66,4 +67,18 @@ body {
 .btn-small {
   width: 57px;
   height: 55px;
+  border-radius: 30%;
+}
+
+.btn-delete {
+  background-color: rgb(228, 247, 233);
+}
+
+.btn-clear {
+  background-color: rgb(232, 215, 250);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
